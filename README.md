@@ -4,10 +4,13 @@
 
 This is the companion repo to the short paper "Debt representation in UTXO blockchains" and contains a prototype of a UTXO-based blockchain capable of debt representation with an application to reverse mortgages. 
 
-The first screenshot illustrates the simplicity with which the total amount of credit in the system can be queried 
-<img src="screen1.png" width="293"/>
+The first screenshot illustrates the simplicity with which the total amount of credit in the system can be queried. The result JSON object contains two JSON objects which are the results of calling `CheckTx` and `DeliverTx`, respectively. 
+
+<img src="screen1.png" width="800"/>
+
 In a similar manner, the second screenshot illustrates the simplicity with which the total amount of debt can be queried. Note that in the second screenshot, a repayment of 25 has been repaid to some lender. The UTXO model enables transaction level privacy protections for individuals while retaining system-level transparency.
-<img src="screen2.png" width="293"/>
+
+<img src="screen2.png" width="800"/>
 
 ## Gotchas
 
